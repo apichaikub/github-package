@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/apichaikub/github-package/issues"
   },
-  "homepage": "https://github.com/apichaikub/github-package#readme"
+  "homepage": "https://github.com/apichaikub/github-package#readme",
+  "publishConfig": {
+    "@apichaikub:registry": "https://npm.pkg.github.com"
+  }
 }
