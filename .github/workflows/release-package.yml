@@ -1,8 +1,11 @@
 name: Node.js Package
 
 on:
-  release:
-    types: [created]
+  # release:
+  #   types: [created]
+  push:
+    branches:
+      - master
 
 jobs:
   # build:
@@ -30,4 +33,4 @@ jobs:
       - run: npm ci
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: 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
+          NODE_AUTH_TOKEN: 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
